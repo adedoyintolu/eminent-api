@@ -1,0 +1,25 @@
+{
+  "name": "eminent-api",
+  "version": "1.0.0",
+  "description": "A simple project to get hands on experience of building an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adedoyintolu/eminent-api.git"
+  },
+  "keywords": [],
+  "author": "Tolulope Adedoyin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adedoyintolu/eminent-api/issues"
+  },
+  "homepage": "https://github.com/adedoyintolu/eminent-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "mysql": "^2.18.1"
+  }
+}
