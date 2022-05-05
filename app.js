@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
 const programmingLanguagesRouter = require("./routes/programmingLanguages");
+var helmet = require('helmet');
 
+app.use(helmet());
 
 app.use(express.json());
 
